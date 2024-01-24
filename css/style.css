@@ -1,3 +1,16 @@
+html {
+    box-sizing: border-box;
+}
+
+*, ::after, ::before {
+    box-sizing: inherit;
+}
+
+body {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
 .background {
     background-color: rgba(114, 112, 110, 0.39);
 }
@@ -21,4 +34,40 @@ button {
 
 button:disabled {
     cursor: not-allowed;
+}
+
+.table {
+    border-collapse: collapse;
+}
+
+.tableCaption {
+    font-weight: bold;
+    font-size: 20px;
+    background-color: aliceblue;
+    border: 3px solid rgba(5, 31, 134, 0.705);
+    border-radius: 5px;
+    padding: 5px;
+    margin-bottom: 5px;
+}
+
+.tableHeaders {
+    background-color: rgba(5, 31, 134, 0.705);
+    color: white;
+}
+
+.tableHeader {
+    text-align: center;
+    padding: 10px;
+    border: 3px solid white;
+}
+
+.tableRow:nth-child(even) {
+    background-color: rgba(5, 31, 134, 0.256);
+}
+
+.tableCell {
+    text-align: left;
+    background-color: rgba(5, 31, 134, 0.09);
+    padding: 10px;
+    border: 3px solid white;
 }
