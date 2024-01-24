@@ -12,3 +12,5 @@ deleteButton.addEventListener("click", () => {
 backgroundButton.addEventListener("click", () => {
     body.classList.toggle("background");
 });
+
+1
