@@ -11,6 +11,14 @@ body {
     margin: 0 auto;
 }
 
+.hobbySection {
+    overflow-x: auto;
+}
+
+.footer {
+    font-style: italic;
+}
+
 .background {
     background-color: rgba(114, 112, 110, 0.39);
 }
