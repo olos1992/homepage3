@@ -14,3 +14,11 @@
     width: 200px;
     border: 2px solid rgba(54, 29, 29, 0.733);
 }
+
+button {
+    cursor: pointer;
+}
+
+button:disabled {
+    cursor: not-allowed;
+}
