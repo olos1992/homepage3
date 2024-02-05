@@ -1,0 +1,35 @@
+.main {
+    margin-top: 50px;
+}
+
+.main__image {
+    width: 200px;
+    border-radius: 20%;
+    display: block;
+    margin: 0 auto;
+    box-shadow: 8px 9px 22px -9px rgba(66, 68, 90, 1);
+}
+
+.main__image--hidden {
+    display: none;
+}
+
+.main__button {
+    cursor: pointer;
+    font-family: 'Kanit', sans-serif;
+    background-color: rgba(0, 0, 0, 0.189);
+    font-size: 15px;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    display: block;
+    margin: 0 auto;
+}
+
+.main__button:disabled {
+    cursor: not-allowed;
+}
+
+.main__button:hover {
+    background-color: rgba(0, 0, 0, 0.314);
+}

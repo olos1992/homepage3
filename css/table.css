@@ -1,0 +1,35 @@
+.table {
+    border-collapse: collapse;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.table__caption {
+    font-size: 20px;
+    background-color: aliceblue;
+    border: 3px solid rgba(5, 31, 134, 0.705);
+    padding: 5px;
+    margin-bottom: 5px;
+}
+
+.table__row:nth-child(even) {
+    background-color: rgba(5, 31, 134, 0.256);
+}
+
+.table__row--header {
+    background-color: rgba(5, 31, 134, 0.705);
+    color: white;
+}
+
+.table__cell {
+    text-align: left;
+    background-color: rgba(5, 31, 134, 0.09);
+    padding: 10px;
+    border: 3px solid white;
+}
+
+.table__cell--header {
+    text-align: center;
+    padding: 10px;
+    border: 3px solid white;
+}

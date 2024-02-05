@@ -1,0 +1,27 @@
+.navigation {
+    list-style: none;
+}
+
+.navigation__item {
+    padding: 8px;
+    margin: 10px 0;
+}
+
+.navigation__link {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.189);
+    box-shadow: 5px 5px 5px -4px rgba(66, 68, 90, 1);
+}
+
+.navigation__link:hover {
+    background-color: rgba(0, 0, 0, 0.314);
+}
+
+.navigation__link:active {
+    background-color: rgba(0, 0, 0, 0.744);
+    color: white;
+}
