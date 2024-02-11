@@ -30,4 +30,7 @@
 
 .table__cell--header {
     text-align: center;
+    font-weight: 400;
+    background-color: rgba(5, 31, 134, 0.705);
+    color: white;
 }
