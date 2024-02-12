@@ -1,7 +1,7 @@
 console.log("Witaj, deweloperze");
 
 let image = document.querySelector(".js-profileImage");
-let body = document.querySelector("body");
+let body = document.querySelector(".js-body");
 let deleteButton = document.querySelector(".js-deletePhotoButton");
 let backgroundButton = document.querySelector(".js-changeBackgroundButton");
 

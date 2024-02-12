@@ -1,8 +1,8 @@
-.navigation {
+.navigation__list {
     list-style: none;
 }
 
-.navigation__item {
+.navigation__listItem {
     padding: 8px;
     margin: 10px 0;
 }
