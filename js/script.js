@@ -1,16 +1,36 @@
-console.log("Witaj, deweloperze");
+{
+    const welcome = () => {
+        console.log("Witaj, deweloperze");
+    };
 
-let image = document.querySelector(".js-profileImage");
-let body = document.querySelector(".js-body");
-let deleteButton = document.querySelector(".js-deletePhotoButton");
-let backgroundButton = document.querySelector(".js-changeBackgroundButton");
+    const detelePhoto = (deleteButton) => {
+        const image = document.querySelector(".js-profileImage");
 
-deleteButton.addEventListener("click", () => {
-    image.classList.toggle("main__image--hidden");
-    image.classList.contains("main__image--hidden") ? deleteButton.innerText = "Przywróć zdjęcie" : deleteButton.innerText = "Usuń zdjęcie";
-});
+        image.classList.toggle("main__image--hidden");
+        image.classList.contains("main__image--hidden") ? deleteButton.innerText = "Przywróć zdjęcie" : deleteButton.innerText = "Usuń zdjęcie";
+    };
 
-backgroundButton.addEventListener("click", () => {
-    body.classList.toggle("body--dark");
-    body.classList.contains("body--dark") ? backgroundButton.innerText = "Przywróć tło" : backgroundButton.innerText = "Zmień tło";
-});
+    const changeBackground = (backgroundButton) => {
+        const body = document.querySelector(".js-body");
+
+        body.classList.toggle("body--dark");
+        body.classList.contains("body--dark") ? backgroundButton.innerText = "Przywróć tło" : backgroundButton.innerText = "Zmień tło";
+    };
+
+    const init = () => {
+        welcome();
+
+        const deleteButton = document.querySelector(".js-deletePhotoButton");
+        const backgroundButton = document.querySelector(".js-changeBackgroundButton");
+
+        deleteButton.addEventListener("click", () => {
+            detelePhoto(deleteButton);
+        });
+
+        backgroundButton.addEventListener("click", () => {
+            changeBackground(backgroundButton);
+        });
+    };
+
+    init();
+}
