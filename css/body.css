@@ -2,8 +2,9 @@
     max-width: 1000px;
     margin: 0 auto;
     font-family: 'Kanit', sans-serif;
+    background-color: rgba(64, 11, 134, 0.171);
 }
 
 .body--dark {
-    background-color: rgba(114, 112, 110, 0.39);
+    background-color: rgba(64, 11, 134, 0.568)
 }

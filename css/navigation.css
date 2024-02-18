@@ -1,5 +1,10 @@
 .navigation__list {
     list-style: none;
+    display:flex;
+    justify-content:space-around;
+    padding: 10px;
+    background-color: rgba(65, 11, 134, 0.795);
+    box-shadow: 0px 5px 5px -1px rgba(66, 68, 90, 1);
 }
 
 .navigation__listItem {
@@ -9,12 +14,9 @@
 
 .navigation__link {
     text-decoration: none;
-    color: black;
-    font-weight: bold;
+    color: white;
     text-transform: uppercase;
-    padding: 5px;
-    background-color: rgba(0, 0, 0, 0.189);
-    box-shadow: 5px 5px 5px -4px rgba(66, 68, 90, 1);
+    padding: 25px;
 }
 
 .navigation__link:hover {
@@ -22,6 +24,5 @@
 }
 
 .navigation__link:active {
-    background-color: rgba(0, 0, 0, 0.744);
-    color: white;
+    background-color: rgba(0, 0, 0, 0.507);
 }

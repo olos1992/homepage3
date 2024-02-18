@@ -6,10 +6,11 @@
 
 .table__caption {
     font-size: 20px;
-    background-color: aliceblue;
+    background-color: rgba(65, 11, 134, 0.795);
     border: 3px solid rgba(5, 31, 134, 0.705);
+    color: white;
     padding: 5px;
-    margin-bottom: 5px;
+    margin-bottom: 1px;
 }
 
 .table__row:nth-child(even) {
@@ -17,20 +18,21 @@
 }
 
 .table__row--header {
-    background-color: rgba(5, 31, 134, 0.705);
+    background-color: rgba(14, 39, 138, 0.767);
     color: white;
 }
 
 .table__cell {
     text-align: left;
-    background-color: rgba(5, 31, 134, 0.09);
+    background-color: rgba(19, 43, 139, 0.308);
     padding: 10px;
-    border: 3px solid white;
+    border: 3px solid rgba(65, 11, 134, 0.795);
+    color: rgb(22, 22, 22);
 }
 
 .table__cell--header {
     text-align: center;
     font-weight: 400;
-    background-color: rgba(5, 31, 134, 0.705);
+    background-color: rgba(28, 53, 155, 0.705);
     color: white;
 }
