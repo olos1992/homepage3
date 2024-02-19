@@ -1,15 +1,18 @@
 .navigation__list {
     list-style: none;
-    display:flex;
-    justify-content:space-around;
+    justify-content: space-around;
     padding: 10px;
     background-color: rgba(65, 11, 134, 0.795);
     box-shadow: 0px 5px 5px -1px rgba(66, 68, 90, 1);
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .navigation__listItem {
     padding: 8px;
     margin: 10px 0;
+    flex-basis: 160px;
+    text-align: center;
 }
 
 .navigation__link {
